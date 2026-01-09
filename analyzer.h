@@ -1,7 +1,6 @@
 #pragma once
 #include <string>
 #include <vector>
-
 struct ZoneCount {
     std::string zone;
     long long count;
@@ -10,6 +9,7 @@ struct ZoneCount {
 struct SlotCount {
     std::string zone;
     int hour;              // 0–23
+    int hour;              
     long long count;
 };
 
